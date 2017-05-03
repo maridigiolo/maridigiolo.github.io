@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Medium blog</title>
+    <meta charset="UTF-8"><!-- high recommended -->
+    <style>
+
+      div.box1{
+                background-color: black;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 60px;
+      }
+
+      div.box2 {
+                display: block;
+                background-color: #fff;
+                position: absolute;
+                padding-top: 0px;
+                padding-left: 23%;
+                padding-right: 23%;
+                font-family: medium-content-serif-font,Georgia,Cambria,
+                "Times New Roman",Times,serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 21px;
+                letter-spacing: -.003em;
+                line-height: 1.58;
+
+      }
+
+      img {
+            width: 20px;
+            height: 20px;
+            position: relative;;
+            left: 15%;
+            top: 35%;
+      }
+
+      button {
+              background-color: black;
+              border-radius: 20px;
+              border-color: #b3b3b3;
+              border-width: thin;
+              color: #b3b3b3;
+              text-align: center;
+              font-size: 11px;
+              position: relative;
+              left: 14%;
+              top: 25%;
+              padding-left: 15px;
+              padding-right: 15px;
+              border-style: solid;
+      }
+
+      body {
+            padding: 0px;
+            margin: 0px;
+      }
+
+      h1 {
+        color: rgba(0,0,0,.8);
+        font-size: 40px;
+        font-weight: 700;
+        margin-left: -2.5px;
+        padding-bottom: 0px;
+      }
+
+      /*ul.nav li:first-child{
+        border-left: 1px solid black;
+      }
+
+      ul.nav li {
+        display: inline-block;
+        width: 300px;
+        border-right:1px solid black;
+        margin: 0 auto;
+      }
+
+      .nav {
+        margin: 0 auto;
+        padding: 0;
+        width: 400px;
+      }*/
+
+      </style>
+  </head>
+  <body>
+    <div class="box1">
+      <button> Follow </button>
+      <a href="https://twitter.com">
+        <img alt="twiter image" src="twitter-xxl.png">
+      </a>
+    </div>
+
+    <div class="box2">
+      <h1>Introducing Apex Ping</h1> <br>
+        I’d like to introduce <strong>Apex Ping!</strong> A minimalistic, but
+        powerful uptime & performance monitoring service for websites and APIs.
+        In this post I’ll cover features of Apex Ping, why I chose to build it
+        first, and a few things I learned in the process. In future posts I’ll
+        be detailing the implementation for anyone who is curious.
+        I soft-launched Ping about a month ago, built almost 100% on AWS Lambda,
+        with 500 users it has already detected over a million errors, and
+        performed over 25 million checks. Big thanks to the early adopters who
+        have checked it out!
+
+    </div>
+
+     </body>
+</html>

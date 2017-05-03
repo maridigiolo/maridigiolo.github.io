@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <meta charset="UTF-8"><!-- high recommended -->
+    <style>
+
+      .clearfix {
+        clear: both;
+      }
+
+      h1{
+        margin: 10px;
+      }
+
+      body {
+        padding: 0;
+        margin: 10px;
+      }
+
+      header {
+        background-color: red;
+
+      }
+
+      footer{
+        background-color: blue;
+        height: 30px;
+        margin-top: 10px;
+        padding-top: 8px;
+        font-weight: bold;
+        padding-left: 10px;
+        font-size: large;
+      }
+
+      .col1{
+        background-color: yellow;
+        width: 300px;
+        height: 100%;
+        float: left;
+        padding-right: 5px;
+      }
+
+      .col2{
+        background-color: orange;
+        width: calc(100% - 320px);
+        height: 100%;
+        float: right;
+
+      }
+
+    </style>
+  </head>
+  <body>
+
+  <header>
+    <h1> Header </h1>
+  </header>
+
+  <div class="clearfix"> </div>
+
+  <div class="columns">
+    <div class="col1"> Column 1
+      <p>
+        According to Latin professor Richard McClintock — the man credited with
+        discovering Lorem Ipsum's roots — it is likely that sometime during the
+        middle ages a typesetter scrambled part of Cicero's De Finibus in order
+        to provide placeholder text to mockup various fonts for a type specimen
+        book. But that was just the beginning.
+      </p>
+    </div>
+
+    <div class="col2"> Column 2
+      <p>
+        According to Latin professor Richard McClintock — the man credited with
+        discovering Lorem Ipsum's roots — it is likely that sometime during the
+         middle ages a typesetter scrambled part of Cicero's De Finibus in
+         order to provide placeholder text to mockup various fonts for a type
+         specimen book.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="clearfix"> </div>
+
+  <footer> Footer </footer>
+
+  </body>
+</html>
